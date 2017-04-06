@@ -137,6 +137,11 @@ button[disabled=disabled], button:disabled {
     background-color: lightcoral;
 }
 
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
+}
+
 #mensagens-erros{
 	color: red;
 }
