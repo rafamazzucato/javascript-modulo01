@@ -89,3 +89,9 @@ function validaPaciente(paciente){
   }
   return erros;
 }
+
+function adicionaPacienteNaTabela(paciente) {
+    var pacienteTr = criaLinhaColunaPaciente(paciente);
+    var tabela = document.querySelector("#tabela-pacientes");
+    tabela.appendChild(pacienteTr);
+}
